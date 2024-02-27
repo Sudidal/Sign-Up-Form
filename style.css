@@ -60,11 +60,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-#form-section h4
-{
     margin-left: var(--margin-left);
 }
+
 .formsec
 {
     display: flex;
@@ -73,7 +71,6 @@
 #form-section .formsec
 {
     display: flex;
-    margin-left: var(--margin-left);
 }
 .formsec label
 {
@@ -122,4 +119,20 @@ button
 .formsec input:invalid
 {
     border-color: red;
+}
+
+#form-message
+{
+    display: none;
+    width: 450px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding: 10px;
+    background-color: rgba(117, 117, 117, 0.253);
+}
+#form-message img
+{
+    width: 20px;
 }
