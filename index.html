@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -19,9 +19,15 @@
         
         <div id="right-panel">
             <div id="description-section">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsam animi, tempore libero veritatis voluptas minima ipsa, exercitationem velit dolorem molestias recusandae excepturi, qui repellat distinctio mollitia necessitatibus blanditiis inventore.</p>
+                <p>THIS IS A FAKE WEBSITE!, Create account to get latest news about Intel's latest Tech trends including latest hardware and software
+                    <br>
+                    <strong>Time to Boost your PC to the limits</strong>
+                </p>
             </div>
-            <div id="form-section">
+            <form id="form-section" method="post" action="https://httpbin.org/post">
+            <div id="forminput">
+                <h4>Let's do this!</h1>
+                    <div id="form-message"></div>
                 <div class="formsec name">
                     <div>
                         <label for="firstnameinput">FIRST NAME</label>
@@ -52,18 +58,19 @@
                         <input type="password" id="confirmpassinput" name="confirmpassinput">
                     </div>
                 </div>
+            </div>
                 <hr>
                 <div id="form-footer">
-                    <button type="submit" id="sumbitbtn">Create Account</button>
+                    <button type="button" id="submitbtn">Create Account</button>
                     <div id="logintxt">
                         Already have an account?
                         <span>
-                            <button id="loginbtn">Log in</button>
+                            <button type="button" id="loginbtn">Log in</button>
                         </span>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
 
     </div>
 </body>
